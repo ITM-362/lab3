@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Roboto:wght@300&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -11,6 +14,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Forms
    ========================================================================== */
 
+@font-face {
+  src: url(https://fonts.google.com/specimen/Roboto#standard-styles);
+}
+
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
@@ -21,7 +28,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: Roboto, "Light 300", Montserrat, "Regular 400", Merriweather, "Regular 400 italic" ; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -201,6 +208,21 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+ol {
+  padding: 0.65em;
+}
+
+li {
+  padding: 0.6em;
+}
+
+h1 {
+  padding: 0.5em;
+}
+
+p {
+  padding: 0.5em;
+}
 /*
 label {
   display: block;

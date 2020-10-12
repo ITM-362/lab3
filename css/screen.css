@@ -195,11 +195,12 @@ img, audio, video {
 
 html {
   text-align: center;
-  font-size: 1.375em; /* 22px */
+  font-size: 2.8em; /* 1.375em, 22px */
   line-height: 1.3em;
   padding: 1em;
   text-rendering: optimizeLegibility;
 }
+
 
 /*
 label {

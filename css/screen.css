@@ -25,7 +25,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: Suwannaphym, "Regular 400", Roboto, "Light 300", Montserrat, "Regular 400", Merriweather, "Regular 400 italic" ; /* 1 */
+  font-family: "Suwannaphym", Regular 400, "Roboto", Light 300, "Montserrat", Regular 400, "Merriweather", Regular 400 italic; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */

@@ -194,15 +194,18 @@ img, audio, video {
 */
 
 html {
+  text-align: center;
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  line-height: 1.3em;
+  padding: 1em;
   text-rendering: optimizeLegibility;
 }
 
+/*
 label {
   display: block;
 }
+*/
 
 /* ===== LAYOUT STYLES ====== */
 

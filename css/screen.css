@@ -27,7 +27,7 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   border: 0;
-  background-color: grey;
+  background-color: #77959e;
 }
 
 body {
@@ -204,6 +204,7 @@ html {
   line-height: 1.3em;
   padding: 1em;
   text-rendering: optimizeLegibility;
+  background-color: #6140bf;
 }
 
 ol {

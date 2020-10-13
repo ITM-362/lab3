@@ -31,9 +31,7 @@ textarea {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-family: Georgia; /* 1 */
+  font-family: 'Roboto', 'Source Sans Pro', sans-serif, Georgia; /* 1 */
 }
 
 /**
